@@ -80,9 +80,6 @@ set winbox port=65535
 /ip firewall nat
 add action=masquerade chain=srcnat out-interface=ether1
 
-/tool e-mail
-set address=smtp-mail.outlook.com from=ibnumalikalbustomi2@outlook.com password=Februari-2001 port=587 start-tls=yes user=ibnumalikalbustomi2@outlook.com
-
 /tool graphing interface
 add
 
